@@ -8,16 +8,16 @@ project("imgui")
     objdir ("%{wks.location}/build/" .. outputdir .. "/%{prj.name}")
 
     files {
-        "imgui.cpp",
-        "imgui_demo.cpp",
-        "imgui_draw.cpp",
-        "imgui_widgets.cpp",
-        "imgui.h",
+        "src/imgui.cpp",
+        "src/imgui_demo.cpp",
+        "src/imgui_draw.cpp",
+        "src/imgui_widgets.cpp",
+        "include/imgui.h",
         "include/imconfig.h",
-        "imgui_internal.h",
-        "imstb_rectpack.h",
-        "imstb_textedit.h",
-        "imstb_truetype.h"
+        "include/imgui_internal.h",
+        "include/imstb_rectpack.h",
+        "include/imstb_textedit.h",
+        "include/imstb_truetype.h"
     }
     
     includedirs {
